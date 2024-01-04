@@ -4,7 +4,7 @@ Feature: Add a task to the to-do list
 Scenario: Add a task to the to-do list
 
 Given the to-do list is empty
-When the user adds a task comer"
+When the user adds a task "comer"
 Then the to-do list should contain "comer"
 
 Feature: List all tasks in the to-do list.
